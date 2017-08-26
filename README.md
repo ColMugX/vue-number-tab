@@ -1,6 +1,8 @@
 # vue-number-tab
 
-> 适用于选座位等数字或者类型选择的组件
+[![NPM](https://nodei.co/npm/vue-number-tab.png)](https://nodei.co/npm/vue-number-tab/)
+
+> 适用于选座位等数字或者类型选择的组件，这是一个从`Bandix`独立出来的组件。
 
 ![screenshots](/screenshots/1.gif)
 
@@ -17,6 +19,25 @@
 3.  `Open in Desktop`
 
 ## 使用 Usage
+
+你可以在`main.js`中直接配置
+
+```js
+import numberTab from 'vue-number-tab'
+
+Vue.use(numberTab)
+```
+
+或者在你希望用到的地方
+```js
+import { NumberTab } from 'vue-number-tab'   // 按照按需引入来…
+
+// components: { NumberTab }
+
+// 或者第二种：
+Vue.component(NumberTab.name, NumberTab)  // 或者换成你喜欢的名字
+
+```
 
 如果直接使用的话
 ```vue

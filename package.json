@@ -1,8 +1,8 @@
 {
   "name": "vue-number-tab",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A Vue Component, for use in selecting number.",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
   },
   "keywords": [
@@ -10,5 +10,9 @@
     "NumberTab"
   ],
   "author": "Co1MugX",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColMugX/vue-number-tab.git"
+  }
 }

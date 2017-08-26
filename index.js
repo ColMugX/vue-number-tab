@@ -1,11 +1,11 @@
-import numtab from './lib/numtab'
+import NumberTab from './lib/numtab'
 
 export default {
   install (Vue) {
-    Vue.component(numtab.name, numtab)
+    Vue.component(NumberTab.name, NumberTab)
   }
 }
 
 export {
-  numtab
+  NumberTab
 }
