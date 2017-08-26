@@ -1,0 +1,14 @@
+{
+  "name": "vue-number-tab",
+  "version": "1.0.0",
+  "description": "A Vue Component, for use in selecting number.",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [
+    "Vue",
+    "NumberTab"
+  ],
+  "author": "Co1MugX",
+  "license": "MIT"
+}
