@@ -1,6 +1,6 @@
 {
   "name": "vue-number-tab",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Vue Component, for use in selecting number.",
   "main": "./index.js",
   "scripts": {

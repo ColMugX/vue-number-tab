@@ -30,12 +30,12 @@ Vue.use(numberTab)
 
 或者在你希望用到的地方
 ```js
-import { NumberTab } from 'vue-number-tab'   // 按照按需引入来…
+import { numberTab } from 'vue-number-tab'   // 按照按需引入来…
 
-// components: { NumberTab }
+// components: { numberTab }
 
 // 或者第二种：
-Vue.component(NumberTab.name, NumberTab)  // 或者换成你喜欢的名字
+Vue.component(numberTab.name, numberTab)  // 或者换成你喜欢的名字
 
 ```
 
